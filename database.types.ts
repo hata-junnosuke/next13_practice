@@ -51,19 +51,19 @@ export interface Database {
       }
       notes: {
         Row: {
-          " title": string | null
           created_at: string
           id: string
+          title: string | null
         }
         Insert: {
-          " title"?: string | null
           created_at?: string
           id?: string
+          title?: string | null
         }
         Update: {
-          " title"?: string | null
           created_at?: string
           id?: string
+          title?: string | null
         }
       }
       todos: {
